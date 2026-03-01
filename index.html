@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Modern & Creative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">SHREYAS H M</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <header id="hero" class="hero">
+            <h1 class="reveal">Shreyas <span
+                    style="background: linear-gradient(to right, var(--primary), var(--secondary)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">H
+                    M</span></h1>
+            <h2 class="reveal" style="font-size: 1.5rem; color: var(--text-muted); margin-bottom: 1.5rem;">Aspiring
+                Software Engineer</h2>
+            <p class="reveal">Passionate about Electronics and Communication, specializing in embedded systems, IoT, and
+                AI-driven solutions.</p>
+            <div class="reveal" style="margin-top: 1rem; display: flex; gap: 1rem; justify-content: center;">
+                <a href="#projects" class="cta-button">View My Projects</a>
+                <a href="https://github.com" class="cta-button"
+                    style="background: var(--bg-card); border: 1px solid var(--border);">GitHub</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="reveal">
+                <p>Motivated Electronics and Communication Engineering student with strong fundamentals in embedded
+                    systems, IoT, and programming. Skilled in C, C++, Python, and HTML, with hands-on experience
+                    developing mini-projects and sensor-based systems. Passionate about learning new technologies and
+                    applying them to real-world engineering problems.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title reveal">Education</h2>
+            <div class="reveal">
+                <div
+                    style="margin-bottom: 2rem; background: var(--bg-card); padding: 2rem; border-radius: 20px; border: 1px solid var(--border);">
+                    <h3 style="color: var(--primary); margin-bottom: 0.5rem;">B.E in Electronics and Communication</h3>
+                    <p style="font-weight: 600;">PES Institute of Technology and Management</p>
+                    <p style="color: var(--text-muted);">2023 - 2027</p>
+                </div>
+                <div
+                    style="background: var(--bg-card); padding: 2rem; border-radius: 20px; border: 1px solid var(--border);">
+                    <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Pre-University Course</h3>
+                    <p style="font-weight: 600;">S Nijalingappa Independent PUC College, Hosadurga</p>
+                    <p style="color: var(--text-muted);">2021 - 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title reveal">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card reveal">
+                    <img src="assets/face-detection.png" alt="Face Detection Project" class="project-img">
+                    <div class="project-info">
+                        <h3>Face Detection</h3>
+                        <p>A fast and efficient C++ project for real-time face detection using OpenCV. Detects faces in
+                            images and live webcam video streams.</p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card reveal">
+                    <div
+                        style="height: 250px; background: linear-gradient(135deg, #4f46e5, #ec4899); display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-robot" style="font-size: 4rem; color: white;"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Jarvis AI Assistant</h3>
+                        <p>Simple AI-based voice assistant built using Python. Can open applications, search the web,
+                            send WhatsApp messages, and more.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card reveal">
+                    <div
+                        style="height: 250px; background: linear-gradient(135deg, #10b981, #3b82f6); display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-seedling" style="font-size: 4rem; color: white;"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Plant Monitoring</h3>
+                        <p>IoT-based Smart Plant Monitoring and Automation System using ESP8266 and sensor-based systems
+                            (2025-26).</p>
+                        <div class="project-tags">
+                            <span class="tag">IoT</span>
+                            <span class="tag">ESP8266</span>
+                            <span class="tag">Electronics</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title reveal">Technical Skills</h2>
+            <div class="skills-container reveal">
+                <div class="skill-pill">C / C++</div>
+                <div class="skill-pill">Python</div>
+                <div class="skill-pill">HTML</div>
+                <div class="skill-pill">QT Framework</div>
+                <div class="skill-pill">MATLAB</div>
+                <div class="skill-pill">Embedded Systems</div>
+                <div class="skill-pill">IoT</div>
+                <div class="skill-pill">VS Code / Studio</div>
+                <div class="skill-pill">GitHub</div>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h2 class="section-title reveal">Certificates</h2>
+            <div class="reveal"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+                <div class="skill-pill">Programming for Everybody (Python)</div>
+                <div class="skill-pill">Data Visualization: Effective Insights</div>
+                <div class="skill-pill">Solution Architecture Job Simulation</div>
+                <div class="skill-pill">SQL and Relational Database</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title reveal">Let's Connect</h2>
+            <div class="contact-container reveal">
+                <form id="contact-form">
+                    <div class="input-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="Shreyas H M" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="hmshreyas48@gmail.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button" style="width: 100%; border: none; cursor: pointer;">Send
+                        Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 4rem 2rem; border-top: 1px solid var(--border); text-align: center;">
+        <p style="color: var(--text-muted);">&copy; 2026 Creative Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
